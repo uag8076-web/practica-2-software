@@ -1,0 +1,26 @@
+{
+  "producto": {
+    "id": "p1",
+    "nombre": "Laptop",
+    "precio": 1200.00,
+    "categoria": "Electrónica"
+  },
+  "orden": {
+    "id": "ord-001",
+    "cliente": "Ana García",
+    "tipo_cliente": "premium",
+    "estado": "PENDIENTE",
+    "items": [
+      {
+        "product_id": "p1",
+        "cantidad": 2,
+        "precio_unitario": 1200.00
+      }
+    ],
+    "subtotal": 2400.00,
+    "descuento": 240.00,
+    "total": 2160.00,
+    "metodo_pago": "PayPal",
+    "creado_en": "2025-01-15T10:30:00"
+  }
+}
